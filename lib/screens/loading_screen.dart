@@ -11,8 +11,8 @@ class LoadingScreen extends StatefulWidget {
 class _LoadingScreenState extends State<LoadingScreen> {
   @override
   void initState() {
-    getLocationData();
     super.initState();
+    getLocationData();
   }
 
   void getLocationData() async {
